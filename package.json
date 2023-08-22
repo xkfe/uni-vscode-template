@@ -1,6 +1,12 @@
 {
   "name": "uni-preset-vue",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "uniapp+ts+uview-plus快速开发模版,将会持续内置一些如登录授权等的基础功能",
+  "author": {
+    "name": "xkfe",
+    "email": "zkai98516@gmail.com"
+  },
+  "license": "MIT",
   "scripts": {
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
