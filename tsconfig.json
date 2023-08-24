@@ -15,13 +15,13 @@
     "types": [
       "@dcloudio/types"
     ],
-    "ignoreDeprecations": "5.0", // 忽略警告⚠️
+    "ignoreDeprecations": "5.0" // 忽略警告⚠️
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue", 
+    "src/**/*.vue",
     // unplugin-auto-import/vite自动引入的类型声明文件
     "typings/**/*.d.ts",
     "typings/**/*.ts"

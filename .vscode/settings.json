@@ -19,5 +19,9 @@
     "json",
     "jsonc",
     "yaml"
-  ]
+  ],
+  "files.associations": {
+    "manifest.json": "jsonc",
+    "pages.json": "jsonc"
+  }
 }
