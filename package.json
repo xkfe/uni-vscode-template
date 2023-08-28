@@ -1,12 +1,17 @@
 {
-  "name": "uni-preset-vue",
-  "version": "1.0.0",
-  "description": "uniapp+ts+uview-plus快速开发模版,将会持续内置一些如登录授权等的基础功能",
+  "name": "uni-vscode-template",
+  "version": "0.1.0",
+  "description": "xkfe's uniapp+uni-ui+vite+ts template for vscode",
   "author": {
     "name": "xkfe",
     "email": "zkai98516@gmail.com"
   },
   "license": "MIT",
+  "homepage": "https://github.com/xkfe/uni-vscode-template",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xkfe/uni-vscode-template.git"
+  },
   "scripts": {
     "prepare": "pnpx simple-git-hooks",
     "dev:app": "uni -p app",
