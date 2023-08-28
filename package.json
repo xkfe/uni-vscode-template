@@ -10,8 +10,17 @@
   "homepage": "https://github.com/xkfe/uni-vscode-template",
   "repository": {
     "type": "git",
-    "url": "git@github.com:xkfe/uni-vscode-template.git"
+    "url": "https://github.com/xkfe/uni-vscode-template"
   },
+  "keywords": [
+    "uniapp",
+    "uni-ui",
+    "vite",
+    "typescript",
+    "vue3",
+    "uniapp-template",
+    "uniapp-vite-template"
+  ],
   "scripts": {
     "prepare": "pnpx simple-git-hooks",
     "dev:app": "uni -p app",
