@@ -1,6 +1,6 @@
 # uni-vscode-template
 
-[![npm](https://img.shields.io/npm/v/xkfe/uni-vscode-template?color=444&label=)](https://npmjs.com/package/xkfe/uni-vscode-template) <a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
+[![npm](https://img.shields.io/npm/v/@xkfe/uni-vscode-template?color=444&label=)](https://npmjs.com/package/uni-vscode-template) <a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
 
 
 
@@ -15,6 +15,13 @@
 
 - [ ] 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 - [ ] 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+
+## Pro-VScode-Plugin (推荐插件)
+
+- 可以为`pages.json`、`manifest.json`等提供**语法提示**和**校验工作**。**[uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode)**
+- uni-app 基本能力代码片段。**[uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode)**
+- 一键创建页面、组件、分包，个人用不习惯。**[uni-create-view](https://marketplace.visualstudio.com/items?itemName=mrmaoddxxaa.create-uniapp-view)**
+
 
 ## Usage (使用)
 
