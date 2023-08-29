@@ -1,5 +1,5 @@
 {
-  "name": "uni-vscode-template",
+  "name": "@xkfe/uni-vscode-template",
   "version": "0.1.0",
   "description": "xkfe's uniapp+uni-ui+vite+ts template for vscode",
   "author": {

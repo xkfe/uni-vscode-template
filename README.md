@@ -1,10 +1,10 @@
 # uni-vscode-template
 
-[![npm](https://img.shields.io/npm/v/uni-vscode-template?color=444&label=)](https://www.npmjs.com/package/uni-vscode-template) <a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
+[![npm](https://img.shields.io/npm/v/@xkfe/uni-vscode-template?color=444&label=)](https://www.npmjs.com/package/@xkfe/uni-vscode-template) <a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
 
 
 
-> 一套基于`uniapp+uni-ui+vite+ts+unocss`的`vscode`快速开发模版，助你高效开发`h5、小程序、app`应用
+一套基于`uniapp+uni-ui+vite+ts+unocss`的`vscode`快速开发模版，助你高效开发`h5、小程序、app`应用。
 
 ## Features (特性)
 
@@ -65,8 +65,9 @@ npm run build:mp-weixin
 ```
 
 
-
-> 参考 uni-app 官方文档： [运行、发布 uni-app](https://uniapp.dcloud.net.cn/quickstart-cli.html#运行、发布uni-app)
+### More
+- 查看文章👉<a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
+- 参考 uni-app 官方文档： [运行、发布 uni-app](https://uniapp.dcloud.net.cn/quickstart-cli.html#运行、发布uni-app)
 
 ## catalog (目录结构)
 
