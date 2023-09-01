@@ -1,6 +1,7 @@
 {
   "extends": "@vue/tsconfig/tsconfig.json",
   "compilerOptions": {
+    "ignoreDeprecations": "5.0",
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
@@ -14,8 +15,7 @@
     ],
     "types": [
       "@dcloudio/types"
-    ],
-    "ignoreDeprecations": "5.0" // 忽略警告⚠️
+    ]
   },
   "include": [
     "src/**/*.ts",

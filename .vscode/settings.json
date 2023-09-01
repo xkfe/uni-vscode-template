@@ -20,8 +20,15 @@
     "jsonc",
     "yaml"
   ],
+  // 消除json文件中的注释警告
   "files.associations": {
     "manifest.json": "jsonc",
     "pages.json": "jsonc"
+  },
+  // 文件嵌套
+  "explorer.fileNesting.enabled": true,
+  // 文件嵌套规则
+  "explorer.fileNesting.patterns": {
+    "vite.config.*": "pages.config.*, manifest.config.*, uno.config.*, volar.config.*, *.env, .env.*"
   }
 }

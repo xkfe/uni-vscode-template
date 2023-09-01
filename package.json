@@ -15,9 +15,6 @@
   "keywords": [
     "uniapp",
     "uni-ui",
-    "vite",
-    "typescript",
-    "vue3",
     "uniapp-template",
     "uniapp-vite-template"
   ],
@@ -74,7 +71,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
     "@dcloudio/uni-ui": "^1.4.28",
-    "vue": "^3.2.45",
+    "vue": "^3.3.4",
     "vue-i18n": "^9.1.9"
   },
   "devDependencies": {
@@ -85,15 +82,18 @@
     "@dcloudio/uni-stacktracey": "3.0.0-3080720230703001",
     "@dcloudio/vite-plugin-uni": "3.0.0-3080720230703001",
     "@uni-helper/uni-ui-types": "^0.5.11",
+    "@uni-helper/vite-plugin-uni-components": "^0.0.6",
+    "@uni-helper/vite-plugin-uni-manifest": "^0.2.0",
+    "@uni-helper/vite-plugin-uni-pages": "^0.2.8",
     "@vue/tsconfig": "^0.1.3",
     "eslint": "^8.47.0",
     "lint-staged": "^14.0.1",
     "sass": "^1.66.1",
     "simple-git-hooks": "^2.9.0",
-    "typescript": "^4.9.4",
+    "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.16.6",
-    "vite": "4.0.4",
-    "vue-tsc": "^1.0.24"
+    "vite": "4.4.9",
+    "vue-tsc": "^1.8.8"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
