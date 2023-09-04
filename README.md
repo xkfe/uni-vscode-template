@@ -1,6 +1,16 @@
 # uni-vscode-template
 
-[![npm](https://img.shields.io/npm/v/@xkfe/uni-vscode-template?color=444&label=)](https://www.npmjs.com/package/@xkfe/uni-vscode-template) <a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
+[uniapp]: https://img.shields.io/badge/-uniapp-35495e?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUrmTkalSwPkyUjlzOnzqvW59husnTR5NL///+EvIkfljDO49B8uIIAkBje7N816861AAAAR0lEQVR4AWPAAhiVGRiMBIAMkTAD5lRHIEO9cwHXjCIgQxvE2EQso+eS7gkwo2/37hcghnoHEIDMMZsJBMlABvMqIDBA2A0AmdQg4B1U1TIAAAAASUVORK5CYII=
+[npm]:https://img.shields.io/npm/v/@xkfe/uni-vscode-template?color=444&label=&logo=npm
+[vue3]: https://img.shields.io/badge/-3-35495e?logo=vue.js
+[vite]: https://img.shields.io/badge/-Vite-646CFF
+[unocss]: https://img.shields.io/badge/-UnoCSS-ff0080?logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VW5vQ1NTPC90aXRsZT48cGF0aCBkPSJNMTIuODYwMiAxOC4zOTkxYzAtMy4wNzYxIDIuNDkzOC01LjU2OTkgNS41Njk5LTUuNTY5OVMyNCAxNS4zMjMgMjQgMTguMzk5MWMwIDMuMDc2Mi0yLjQ5MzggNS41Njk5LTUuNTY5OSA1LjU2OTlzLTUuNTY5OS0yLjQ5MzctNS41Njk5LTUuNTY5OVpNMTIuODYwMiA1LjYwMDljMC0zLjA3NjIgMi40OTM4LTUuNTcgNS41Njk5LTUuNTdTMjQgMi41MjQ4IDI0IDUuNjAxdjUuMDEyOWEuNTU3LjU1NyAwIDAgMS0uNTU3LjU1NjlIMTMuNDE3MmEuNTU3LjU1NyAwIDAgMS0uNTU3LS41NTY5di01LjAxM1pNMTEuMTM5OCAxOC4zOTkxYzAgMy4wNzYyLTIuNDkzNyA1LjU2OTktNS41Njk5IDUuNTY5OUMyLjQ5MzcgMjMuOTY5IDAgMjEuNDc1MyAwIDE4LjM5OTF2LTUuMDEyOWEuNTU3LjU1NyAwIDAgMSAuNTU3LS41NTdoMTAuMDI1OGEuNTU3LjU1NyAwIDAgMSAuNTU3LjU1N3Y1LjAxMjlaIi8+PC9zdmc+
+[vscode]: https://img.shields.io/badge/-VSCode-3c7fba?logo=visual-studio-code
+[typescript]: https://img.shields.io/npm/types/typescript
+[xkfe]: https://img.shields.io/badge/juejin-小凯同学-blue
+
+
+[![xkfe]](https://juejin.cn/post/7270830083740450816) [![npm]](https://www.npmjs.com/package/@xkfe/uni-vscode-template) ![uniapp] ![vue3] ![vite] ![unocss] ![vscode] ![typescript]
 
 
 
@@ -12,6 +22,7 @@
 - [x] 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
 - [x] 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
 - [x] 🦾 [TypeScript](https://www.typescriptlang.org/) & [ESLint](https://eslint.org/) - 保证代码质量
+- [x] 🚀 [网络请求集成](https://github.com/uni-helper/uni-network)
 
 - [ ] 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 - [ ] 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
@@ -63,11 +74,6 @@ npm run build:app
 # 打包到 微信小程序  
 npm run build:mp-weixin  
 ```
-
-
-### More
-- 查看文章👉<a href="https://juejin.cn/post/7270830083740450816"><img src="https://img.shields.io/badge/juejin-小凯同学-blue" alt="juejin"></a>
-- 参考 uni-app 官方文档： [运行、发布 uni-app](https://uniapp.dcloud.net.cn/quickstart-cli.html#运行、发布uni-app)
 
 ## catalog (目录结构)
 
