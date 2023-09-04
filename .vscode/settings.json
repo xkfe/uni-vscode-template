@@ -26,7 +26,7 @@
     "pages.json": "jsonc"
   },
   // 文件嵌套
-  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.enabled": false,
   // 文件嵌套规则
   "explorer.fileNesting.patterns": {
     "vite.config.*": "pages.config.*, manifest.config.*, uno.config.*, volar.config.*, *.env, .env.*"

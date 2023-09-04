@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "prepare": "pnpx simple-git-hooks",
+    "dev": "uni",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
     "dev:app-ios": "uni -p app-ios",
@@ -71,6 +72,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
     "@dcloudio/uni-ui": "^1.4.28",
+    "@uni-helper/uni-network": "^0.16.1",
     "vue": "^3.3.4",
     "vue-i18n": "^9.1.9"
   },
