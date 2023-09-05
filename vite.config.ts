@@ -26,7 +26,7 @@ export default defineConfig(({ mode }) => {
       uni(),
       // 配置自动导入 vue相关函数, uni-app相关函数。ref, reactive，onLoad等
       AutoImport({
-        imports: ['vue', 'uni-app'],
+        imports: ['vue', '@vueuse/core', 'uni-app'],
         dts: './typings/auto-imports.d.ts',
       }),
       // https://github.com/antfu/unocss
