@@ -6,7 +6,7 @@ module.exports = {
     es6: true,
   },
   // https://github.com/antfu/eslint-config
-  extends: '@antfu',
+  extends: ['@antfu', '@unocss'],
   rules: {
     // your custom rules...
     'vue/html-self-closing': ['error', {

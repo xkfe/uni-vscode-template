@@ -4,6 +4,7 @@ import UniHelperManifest from '@uni-helper/vite-plugin-uni-manifest';
 import UniHelperPages from '@uni-helper/vite-plugin-uni-pages';
 import UniHelperComponents from '@uni-helper/vite-plugin-uni-components';
 import AutoImport from 'unplugin-auto-import/vite';
+import UnoCSS from 'unocss/vite';
 import { wrapperEnv } from './build/getEnv';
 import { createProxy } from './build/proxy';
 
@@ -28,6 +29,9 @@ export default defineConfig(({ mode }) => {
         imports: ['vue', 'uni-app'],
         dts: './typings/auto-imports.d.ts',
       }),
+      // https://github.com/antfu/unocss
+      // see unocss.config.ts for config
+      UnoCSS(),
     ],
     envDir: 'env',
     server: {
