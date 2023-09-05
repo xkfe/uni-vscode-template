@@ -7,14 +7,16 @@
 [unocss]: https://img.shields.io/badge/-UnoCSS-ff0080?logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VW5vQ1NTPC90aXRsZT48cGF0aCBkPSJNMTIuODYwMiAxOC4zOTkxYzAtMy4wNzYxIDIuNDkzOC01LjU2OTkgNS41Njk5LTUuNTY5OVMyNCAxNS4zMjMgMjQgMTguMzk5MWMwIDMuMDc2Mi0yLjQ5MzggNS41Njk5LTUuNTY5OSA1LjU2OTlzLTUuNTY5OS0yLjQ5MzctNS41Njk5LTUuNTY5OVpNMTIuODYwMiA1LjYwMDljMC0zLjA3NjIgMi40OTM4LTUuNTcgNS41Njk5LTUuNTdTMjQgMi41MjQ4IDI0IDUuNjAxdjUuMDEyOWEuNTU3LjU1NyAwIDAgMS0uNTU3LjU1NjlIMTMuNDE3MmEuNTU3LjU1NyAwIDAgMS0uNTU3LS41NTY5di01LjAxM1pNMTEuMTM5OCAxOC4zOTkxYzAgMy4wNzYyLTIuNDkzNyA1LjU2OTktNS41Njk5IDUuNTY5OUMyLjQ5MzcgMjMuOTY5IDAgMjEuNDc1MyAwIDE4LjM5OTF2LTUuMDEyOWEuNTU3LjU1NyAwIDAgMSAuNTU3LS41NTdoMTAuMDI1OGEuNTU3LjU1NyAwIDAgMSAuNTU3LjU1N3Y1LjAxMjlaIi8+PC9zdmc+
 [vscode]: https://img.shields.io/badge/-VSCode-3c7fba?logo=visual-studio-code
 [typescript]: https://img.shields.io/npm/types/typescript
-[xkfe]: https://img.shields.io/badge/juejin-小凯同学-blue
+[xkfe]: https://img.shields.io/badge/juejin-xkfe-blue
 
 
 [![xkfe]](https://juejin.cn/post/7270830083740450816) [![npm]](https://www.npmjs.com/package/@xkfe/uni-vscode-template) ![uniapp] ![vue3] ![vite] ![unocss] ![vscode] ![typescript]
 
-
-
 一套基于`uniapp+uni-ui+vite+ts+unocss`的`vscode`快速开发模版，助你高效开发`h5、小程序、app`应用。
+
+<p align='center'>
+  <img src='https://github.com/HalseySpicy/Geeker-Admin/assets/129662190/5c3629fc-1e4e-47fd-a406-3d14d446c480' alt='xkfe uniapp+uni-ui+vite+ts template for vscode'/>
+</p>
 
 ## Features (特性)
 
@@ -23,9 +25,8 @@
 - [x] 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
 - [x] 🦾 [TypeScript](https://www.typescriptlang.org/) & [ESLint](https://eslint.org/) - 保证代码质量
 - [x] 🚀 [网络请求集成](https://github.com/uni-helper/uni-network)
-
-- [ ] 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
-- [ ] 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- [x] 🎨 [UnoCSS](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
+- [x] 😃 [各种图标集为你所用](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 ## Pro-VScode-Plugin (推荐插件)
 
@@ -76,8 +77,42 @@ npm run build:mp-weixin
 ```
 
 ## catalog (目录结构)
+```log
+uni-vscode-template                        
+├─ build                                   
+│  ├─ getEnv.ts                            
+│  └─ proxy.ts                             
+├─ env                               # 环境env文件      
+├─ src                                     
+│  ├─ api                                  
+│  │  ├─ modules                     # 请求api                     
+│  │  └─ request                     # 网络请求封装                           
+│  ├─ config                         # 全局配置                                
+│  ├─ hooks                          # hooks      
+│  ├─ pages                          # 页面.vue文件                          
+│  ├─ static                         # 静态文件                              
+│  ├─ stores                         # pinia store                               
+│  ├─ utils                          # 工具类集合      
+│  ├─ App.vue                              
+│  ├─ env.d.ts                            
+│  ├─ main.ts                        # 入口文件  
+│  ├─ manifest.json                  # uni 配置文件，更改请使用 manifest.config.ts      
+│  ├─ pages.json                     # uni 页面配置文件，更改请使用 pages.config.ts        
+│  ├─ shime-uni.d.ts                       
+│  └─ uni.scss                        # uni 变量文件，可使用 unocss shortcuts预设别名替代     
+├─ typings                            # 自动引入等类型声明文件                               
+├─ CHANGELOG.md                       # 更新说明文件                                      
+├─ README.md                          # 说明文件     
+├─ index.html                              
+├─ manifest.config.ts                 # uni manifest配置文件，具有类型支持
+├─ package.json                            
+├─ pages.config.ts                    # uni pages配置文件，具有类型支持     
+├─ pnpm-lock.yaml                          
+├─ tsconfig.json                      # typescript配置文件     
+├─ uno.config.ts                      # unicss 配置文件    
+└─ vite.config.ts                     # vite 配置文件     
 
-...
+```
 
 
 
