@@ -14,8 +14,12 @@
       "dom"
     ],
     "types": [
-      "@dcloudio/types"
+      "@dcloudio/types",
+      "@uni-helper/uni-app-types"
     ]
+  },
+  "vueCompilerOptions": {
+    "nativeTags": ["block", "component", "template", "slot"]
   },
   "include": [
     "src/**/*.ts",
