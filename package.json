@@ -87,6 +87,7 @@
     "@dcloudio/uni-cli-shared": "3.0.0-3080720230703001",
     "@dcloudio/uni-stacktracey": "3.0.0-3080720230703001",
     "@dcloudio/vite-plugin-uni": "3.0.0-3080720230703001",
+    "@uni-helper/uni-app-types": "^0.5.12",
     "@uni-helper/uni-ui-types": "^0.5.11",
     "@uni-helper/vite-plugin-uni-components": "^0.0.6",
     "@uni-helper/vite-plugin-uni-manifest": "^0.2.0",
