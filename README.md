@@ -1,4 +1,6 @@
-# uni-vscode-template
+# 🛑停止维护：最新版可查看：https://github.com/xkfe/vue-latest-template
+
+## uni-vscode-template
 
 [uniapp]: https://img.shields.io/badge/-uniapp-35495e?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAALVBMVEUrmTkalSwPkyUjlzOnzqvW59husnTR5NL///+EvIkfljDO49B8uIIAkBje7N816861AAAAR0lEQVR4AWPAAhiVGRiMBIAMkTAD5lRHIEO9cwHXjCIgQxvE2EQso+eS7gkwo2/37hcghnoHEIDMMZsJBMlABvMqIDBA2A0AmdQg4B1U1TIAAAAASUVORK5CYII=
 [npm]:https://img.shields.io/npm/v/@xkfe/uni-vscode-template?color=444&label=&logo=npm
